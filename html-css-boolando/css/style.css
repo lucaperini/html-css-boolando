@@ -1,0 +1,49 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width: 85%;
+    margin:0 auto;
+    border: 1px solid red;
+}
+
+.row {
+    text-align: center;
+    
+}
+
+.card {
+    display: inline-block;  
+    padding-left:20px;       
+}
+
+.product-foto{
+    width:320px;
+    height:462px;
+    
+}
+
+.brand{
+    font-size:12px;
+    text-align:left;
+}
+
+p.product{
+    font-weight: bold;
+    text-align:left;
+}
+
+p.product-discount-price{
+    color:red;
+    text-align: left;
+}
+
+span.product-price {
+    display:inline-block;
+    text-align:left;
+    text-decoration: line-through;
+    color:black;
+}
