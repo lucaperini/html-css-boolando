@@ -40,30 +40,22 @@ body{
 
 /* impostazione immagini prodotto */
 
-.product-image {
+.dimension{
     width:320px;
     height:462px;
+}
+
+.product-image {
     display:block;
-    
 }
     
 .second-product-image {
-    width:320px;
-    height:462px;
-    position:absolute;
-    top:0;
-    left:0;
     display:none;
-    } 
+} 
 
 
 .change-product-image{
-    width:320px;
-    height:462px;
-    position:relative;
-    top:0;
-    left:0;;
-    z-index:6;
+    display:block
 }
 
 /* cambio immagine */
@@ -146,5 +138,6 @@ span.product-price {
     top:15px;
     padding:5px;
     z-index:10;
+    display:none;
     
 }
